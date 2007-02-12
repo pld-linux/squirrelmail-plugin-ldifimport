@@ -1,7 +1,7 @@
 %define		_plugin	ldifimport
 %define		mversion	1.2.x
 Summary:	A squirrelmail LDIF Address Book Import plug-in
-Summary(pl):	Wtyczka squirrelmaila do importu ksi±¿ki adresowej LDIF
+Summary(pl.UTF-8):   Wtyczka squirrelmaila do importu ksiÄ…Å¼ki adresowej LDIF
 Name:		squirrelmail-plugin-%{_plugin}
 Version:	1.4
 Release:	1
@@ -23,12 +23,12 @@ import is not in LDIF format, this plugin will direct you to the
 InterGuru web site where you can convert many popular address book
 formats into LDIF format in order to import it with this plugin. 
 
-%description -l pl
-Ta wtyczka importuje prawie wszystkie dane z ksi±¿ki adresowej. Je¶li
-ksi±¿ka adresowa, któr± chcemy zaimportowaæ, nie jest w formacie LDIF,
-ta wtyczka przekieruje na stronê WWW InterGuru, gdzie mo¿na
-przekonwertowaæ wiele popularnych formatów ksi±¿ek adresowych do
-formatu LDIF w celu zaimportowania przy u¿yciu tej wtyczki.
+%description -l pl.UTF-8
+Ta wtyczka importuje prawie wszystkie dane z ksiÄ…Å¼ki adresowej. JeÅ›li
+ksiÄ…Å¼ka adresowa, ktÃ³rÄ… chcemy zaimportowaÄ‡, nie jest w formacie LDIF,
+ta wtyczka przekieruje na stronÄ™ WWW InterGuru, gdzie moÅ¼na
+przekonwertowaÄ‡ wiele popularnych formatÃ³w ksiÄ…Å¼ek adresowych do
+formatu LDIF w celu zaimportowania przy uÅ¼yciu tej wtyczki.
 
 %prep
 %setup -q -n %{_plugin}
