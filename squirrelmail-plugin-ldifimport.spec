@@ -1,7 +1,7 @@
 %define		_plugin	ldifimport
 %define		mversion	1.2.x
 Summary:	A squirrelmail LDIF Address Book Import plug-in
-Summary(pl.UTF-8):   Wtyczka squirrelmaila do importu książki adresowej LDIF
+Summary(pl.UTF-8):	Wtyczka squirrelmaila do importu książki adresowej LDIF
 Name:		squirrelmail-plugin-%{_plugin}
 Version:	1.4
 Release:	1
