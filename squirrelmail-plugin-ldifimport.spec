@@ -4,14 +4,14 @@ Summary:	A squirrelmail LDIF Address Book Import plug-in
 Summary(pl.UTF-8):	Wtyczka squirrelmaila do importu książki adresowej LDIF
 Name:		squirrelmail-plugin-%{_plugin}
 Version:	1.4
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Mail
 Source0:	http://www.squirrelmail.org/plugins/%{_plugin}-%{version}-%{mversion}.tar.gz
 # Source0-md5:	0d280a925c6e2e16310621eeace7b843
 URL:		http://www.squirrelmail.org/plugin_view.php?id=18
 Requires:	squirrelmail >= 1.4.0
-Requires:	squirrelmail-compatibility-2.0.4
+Provides:       squirrelmail-compatibility >= 2.0.4
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_plugindir	%{_datadir}/squirrelmail/plugins/%{_plugin}
